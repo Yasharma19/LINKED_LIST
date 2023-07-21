@@ -20,6 +20,6 @@ class Solution {
             prev=curr;
             curr=next;
         }
-        return prev;
+        return prev;  //Because it new start of the reverse array
     }
 }
