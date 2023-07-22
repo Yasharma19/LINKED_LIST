@@ -6,9 +6,9 @@ ListNode Sort(ListNode head){
     while(temp!=null){
         if(temp.val==0)
             zero++;
-        if(temp.val==1)
+        else if(temp.val==1)
             one++;
-        if(temp.val==2)
+        else if(temp.val==2)
             two++;    
         temp=temp.next;    
     }
@@ -19,11 +19,11 @@ ListNode Sort(ListNode head){
             temp.val=0;
             zero--;  
         }
-        if(one!=0){
+        else if(one!=0){
             temp.val=1;
             one--;  
         }
-        if(two!=0){
+        else if(two!=0){
             temp.val=2;
             two--;  
         }
