@@ -16,7 +16,7 @@ class Solution {
     //Slow-1 step, Fast-2 Steps
     public void reorderList(ListNode head) {
         ListNode slow=head;     //Slow become middle and point of Division of LLs
-        ListNode fast=head.next;
+        ListNode fast=head;
 
         //To get the middle
         while(fast!=null && fast.next!=null){
