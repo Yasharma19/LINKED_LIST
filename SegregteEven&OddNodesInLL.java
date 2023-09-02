@@ -36,9 +36,9 @@ class Solution{
         if(o!=null){
             o.next=null;    //End of LL i.e. end of ODD 
         }
-        if(Even!=null){
+        if(Even!=null){         //To check if even is present or not
             return Even;
         }
-        return Odd;
+        return Odd;               //When there is no Even no. in the LL
     }
 }
