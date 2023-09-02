@@ -6,10 +6,6 @@ class Solution {
             size++;
             temp=temp.next;
         }
-        if(size==1){
-            head=null;
-            return head;
-        }
         temp=head;
         if(size==n){
             head=head.next;
